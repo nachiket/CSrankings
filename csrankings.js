@@ -23,11 +23,11 @@
 var CSRankings = /** @class */ (function () {
     function CSRankings() {
         var _this = this;
-        this.authorFile = "~/csrankings.csv";
-        this.authorinfoFile = "~/generated-author-info.csv";
-        this.countryinfoFile = "~/country-info.csv";
-        this.aliasFile = "~/dblp-aliases.csv";
-        this.homepageImage = "~/house-logo.png";
+        this.authorFile = "/csrankings.csv";
+        this.authorinfoFile = "/generated-author-info.csv";
+        this.countryinfoFile = "/country-info.csv";
+        this.aliasFile = "/dblp-aliases.csv";
+        this.homepageImage = "/house-logo.png";
         this.allowRankingChange = false; /* Can we change the kind of rankings being used? */
         this.areaMap = [{ area: "ai", title: "AI" },
             { area: "aaai", title: "AI" },
