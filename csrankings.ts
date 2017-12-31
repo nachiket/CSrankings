@@ -139,11 +139,11 @@ class CSRankings {
 	});
     }
 
-    private readonly authorFile         = "/csrankings.csv";
-    private readonly authorinfoFile     = "/generated-author-info.csv";
-    private readonly countryinfoFile    = "/country-info.csv";
-    private readonly aliasFile          = "/dblp-aliases.csv";
-    private readonly homepageImage      ="/house-logo.png";
+    private readonly authorFile         = "/CSrankings/csrankings.csv";
+    private readonly authorinfoFile     = "/CSrankings/generated-author-info.csv";
+    private readonly countryinfoFile    = "/CSrankings/country-info.csv";
+    private readonly aliasFile          = "/CSrankings/dblp-aliases.csv";
+    private readonly homepageImage      ="/CSrankings/house-logo.png";
     
     private readonly allowRankingChange = false;   /* Can we change the kind of rankings being used? */
 
